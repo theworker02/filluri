@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/filluri",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fill digests and uri fingerprints for local integrity checks.",
+  "bin": {
+    "filluri": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/filluri.git"
+  },
+  "homepage": "https://theworker02.github.io/filluri/",
+  "keywords": [
+    "fill",
+    "uri",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
